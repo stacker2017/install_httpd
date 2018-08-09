@@ -3,7 +3,7 @@
   hosts: all
   become: true
   vars: 
-    package_name: httpd
+    package_name: apache2
 
   tasks:
   - name: install package
